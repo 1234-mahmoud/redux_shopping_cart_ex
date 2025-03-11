@@ -1,0 +1,19 @@
+.cart{
+    width: 300px;
+    background-color: rgb(107, 107, 226);
+    margin: 30px auto;
+    font-size: 1.4rem;
+    position: absolute;
+    top:20px;
+    right: 0;
+}
+
+.cart .cart-item{
+    background-color: cyan;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
