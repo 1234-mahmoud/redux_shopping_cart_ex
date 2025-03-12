@@ -1,11 +1,10 @@
 .products{
-    width: 100%;
-    height: 300px;
     background-color: olivedrab;
     display: grid;
     grid-template-columns: repeat(4,minmax(250px,1fr));
     gap: 20px;
     justify-content: center;
+    padding: 20px;
 }
 
 .products .prod{
@@ -14,5 +13,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-font-size: 2rem;
+font-size: 1rem;
+padding: 20px;
+border-radius: 20px;
+}
+.products .prod h3{
+    font-weight: 400;
+    text-align: center;
+    font-size: .9rem;
 }
